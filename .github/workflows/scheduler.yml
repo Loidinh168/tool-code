@@ -15,4 +15,4 @@ jobs:
         run: pip install requests
 
       - name: Run notifier
-        run: python scheduler.py
+        run: python main.py
