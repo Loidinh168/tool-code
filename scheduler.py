@@ -2,8 +2,8 @@ import requests
 from datetime import datetime
 
 # ==== THAY TOKEN & CHAT_ID Ở ĐÂY ====
-TOKEN = "BOT_TOKEN_HERE"
-CHAT_ID = "CHAT_ID_HERE"
+TOKEN = "8290533409:AAH8H85S3w1fdvv41QGfMT4_maTQk34VVMo"
+CHAT_ID = "996423463"
 
 CHECK_IN = "09:00"
 CHECK_OUT = "19:00"
