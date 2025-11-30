@@ -1,0 +1,18 @@
+name: Checkin Telegram Notify
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"  # chạy mỗi phút
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run notifier
+        run: python scheduler.py
